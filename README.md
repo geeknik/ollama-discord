@@ -35,3 +35,4 @@ TODO:
   - Add heuristic for estimating remaining time
   - Improve thinkingMessages() routine
   - Improve web search integration
+  - Add unit tests

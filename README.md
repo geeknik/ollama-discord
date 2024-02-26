@@ -21,7 +21,17 @@ ctrl-a-d
 ```
 
 Features:
-- free and open source discord bot
-- local llm-powered chatbots, free from corporate control
-- message chunking to fit into discord 2000 character limits per message
-- ollama and openai are interchangeable via .env edits
+  - Free and open source discord bot
+  - Local llm-powered chatbots, free from corporate control
+  - Message chunking to fit into discord's 2000 character limit
+  - ollama and openai are interchangeable via .env if you're hip to it
+
+Known Issues:
+  - Message chunking can result in broken lines, incomplete words
+  - ThinkingMessages() doesn't convey enough information to user
+
+TODO:
+  - Improve message chunking heuristic
+  - Add heuristic for estimating remaining time
+  - Improve thinkingMessages() routine
+  - Improve web search integration

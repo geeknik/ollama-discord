@@ -12,3 +12,4 @@ npm install axios discord
 node ollama-discord.js
 ctrl-A-D
 ```
+if you understand how api calls work, you can substitute openai for ollama

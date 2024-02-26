@@ -10,6 +10,6 @@ cp env.example .env
 nano .env
 npm install axios discord
 node ollama-discord.js
-ctrl-A-D
+ctrl-a-d
 ```
 if you understand how api calls work, you can substitute openai for ollama
